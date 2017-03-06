@@ -1,0 +1,22 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "a medium sized command line app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatchSG/tictactoe.git"
+  },
+  "author": "Forrest Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatchSG/tictactoe/issues"
+  },
+  "homepage": "https://github.com/MatchSG/tictactoe#readme",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
