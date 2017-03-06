@@ -13,22 +13,22 @@ console.log(chalk.cyan("Lets Play A Game"))
 
 // build game board function
 const board = [];
-const createBoard = () => {
+module.exports.createBoard = function() {
   for(let i = 0; i < 3; i ++){
     board.push([]);
     for(let j = 0; j < 3; j++){
       board[i].push('-')
     }
   }
+  module.exports.renderBoard()
 }
-createBoard();
+
 
 // build Render Board Function
 
-const renderBoard = () => {
+module.exports.renderBoard = function() {
   board.forEach(item => console.log(chalk.magenta(item)))
 }
-renderBoard();
 // build toggle player piece function
   //get piece Position then check if position is occupied 
     // if not then place a X there
